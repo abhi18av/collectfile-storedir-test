@@ -1,4 +1,4 @@
-params.base_path =  "./" // "s3://felipe-bucket/nextflow/work/almeifel/"
+params.base_path =  "./"
 params.collect_file_name = "samplesheet.csv"
 
 ch_samples = Channel.value( "minimal,example,failing" )
